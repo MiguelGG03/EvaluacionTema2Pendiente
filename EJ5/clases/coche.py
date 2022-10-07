@@ -1,4 +1,4 @@
-from EJ5.clases.vehiculo import Vehiculo
+from vehiculo import Vehiculo
 
 class Coche(Vehiculo):
 
