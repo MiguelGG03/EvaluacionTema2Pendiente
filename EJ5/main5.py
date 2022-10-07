@@ -5,7 +5,7 @@ from clases.motocicleta import Motocicleta
 from clases.coche import Coche
 
 
-def main():
+def main5():
 
     vehiculo=Vehiculo('Rojo',4)
     moto=Motocicleta('Rojo',2,'Deportiva',240,15)
