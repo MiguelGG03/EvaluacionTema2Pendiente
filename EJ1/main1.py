@@ -17,6 +17,9 @@ def main1():
     a3.calificacion()
     a4.calificacion()
     a5.calificacion()
+    print()
+    print()
+    print('Ejercicios 1 y 2 acabados\n______________________________')
 
     p1=Producto('01F','Manzana',0.25,'Alimento')
     print(p1.__str__())
