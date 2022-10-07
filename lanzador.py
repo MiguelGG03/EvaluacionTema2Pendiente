@@ -10,3 +10,5 @@ def main():
         main4()
     elif pr1=='5':
         main5()
+    else:
+        print('Respuesta incorrecta')
