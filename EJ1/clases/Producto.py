@@ -32,3 +32,7 @@ class Producto:
 
     def __str__(self):
         return f'Codigo: {self.codigo}\nNombre: {self.nombre}\nPrecio: {self.precio}€\nTipo: {self.tipo}\n'
+
+    def modificar_precio(self,precio):
+        self.precio=precio
+        return f'El producto {self.nombre}, ha adquirido un nuevo precio de {self.precio}'
