@@ -1,3 +1,4 @@
+from clases.Producto import Producto
 from clases.Alumno import Alumno
 
 def main1():
@@ -17,6 +18,12 @@ def main1():
     a4.calificacion()
     a5.calificacion()
 
+    p1=Producto('01F','Manzana',0.25,'Alimento')
+    print(p1.__str__())
+    pr1=float(input('Que nuevo precio desea ponerle a la manzana (x.xx€): '))
+    print(p1.modificar_precio(pr1))
+    print()
+    print(p1.__str__())
 
 if __name__=='__main__':
     main1()
