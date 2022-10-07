@@ -21,7 +21,7 @@ class Alumno:
     def calificacion(self):
         if self.nota<5 and self.nota>=0:
             print(f'El alumno {self.nombre} ha suspendido con un {self.nota}.')
-        if self.nota<=10 and self.nota>=5:
+        elif self.nota<=10 and self.nota>=5:
             print(f'El alumno {self.nombre} ha aprobado con un {self.nota}.')
         else:
             print(f'La nota {self.nota} no tiene sentido')

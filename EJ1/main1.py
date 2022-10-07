@@ -11,6 +11,11 @@ def main1():
     a3.__str__()
     a4.__str__()
     a5.__str__()
+    a1.calificacion()
+    a2.calificacion()
+    a3.calificacion()
+    a4.calificacion()
+    a5.calificacion()
 
 
 if __name__=='__main__':
