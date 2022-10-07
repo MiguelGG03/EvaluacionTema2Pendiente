@@ -1,6 +1,3 @@
-from typing_extensions import Self
-
-
 class Alumno:
     def __init__(self,nombre,nota):
         self.nombre=nombre
@@ -19,7 +16,7 @@ class Alumno:
             print(f'Ha habido un error en la nota de {self.nombre}')
     
     def __str__(self):
-        return print(f'Nombre del Alumno: {self.nombre}\nNota: {self.nota}')
+        return print(f'Nombre del Alumno: {self.nombre}\nNota: {self.nota}\n')
 
     def calificacion(self):
         if self.nota<5 and self.nota>=0:
