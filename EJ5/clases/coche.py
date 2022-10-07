@@ -1,12 +1,4 @@
-class Vehiculo:
-
-    def __init__(self, color, ruedas):
-        self.color = color
-        self.ruedas = ruedas
-
-    def __str__(self):
-
-        return "color {}, {} ruedas".format( self.color, self.ruedas )
+from EJ5.clases.veiculo import Vehiculo
 
 class Coche(Vehiculo):
 
@@ -17,6 +9,7 @@ class Coche(Vehiculo):
 
     def __str__(self):
         return Vehiculo.__str__(self) + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)
+
 
 def main():
 
